@@ -1,0 +1,13 @@
+[project]
+name = "youtube-downloader"
+version = "0.1.0"
+description = "YouTube 동영상/오디오 다운로더"
+requires-python = ">=3.9"
+dependencies = [
+    "yt-dlp",
+    "fastapi",
+    "uvicorn[standard]",
+]
+
+[project.scripts]
+ytdl = "downloader:main"
