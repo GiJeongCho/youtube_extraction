@@ -88,4 +88,3 @@ uv sync
 uv run python server.py
 
 http://localhost:4996
-```
