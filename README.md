@@ -79,3 +79,13 @@ uv run python server.py
 | `-o`, `--output` | 저장 경로 | ./downloads |
 | `-q`, `--quality` | 비디오 화질 (best/worst/720/1080 등) | best |
 | `-i`, `--interactive` | 대화형 모드 | — |
+
+
+## 파이프라인
+```
+cd /d d:\D_project\project\yd_extraction
+uv sync
+uv run python server.py
+
+http://localhost:4996
+```
